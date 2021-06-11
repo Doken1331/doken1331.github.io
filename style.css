@@ -208,10 +208,76 @@ main .main_about {
 .main_work img:hover {
     opacity: 0.9;
 }
-
-
-
-
+.contact_wrapper {
+    width: 753px;
+    margin: 0 auto;
+    padding: 100px 0;
+}
+.contact_wrapper .line {
+    left: 44%;
+}
+.contact_form h1 {
+    font-size: 44px;
+    padding: 30px 0 60px 0;
+}
+.contact_form h1,p {
+    text-align: center;
+}
+.first_p_contact_wrapper {
+    margin-bottom: 100px;
+}
+form p {
+    text-align: left;
+}
+input {
+    width: 360px;
+    height: 40px;   
+    font-size: 20px;
+    margin-bottom: 30px;
+    color: #636363;
+}
+.red {
+    color: red;
+}
+.form_inputs {
+    display: flex;
+}
+textarea {
+    width: 100%;
+    height: 163px;
+}
+input, textarea {
+    border: 1px solid #999999;
+}
+input:first-of-type {
+    margin-right: 30px;
+}
+.button_block {
+    display: flex;
+    justify-content: flex-end;
+}
+input[type=submit] {
+    width: 165px;
+    height: 40px;
+    background: #fcac45;
+    color: white;
+    margin-right: -2px;
+    margin-top: 20px;
+}
+footer {
+    height: 90px;
+    width: 100%;
+    background: #222222;
+}
+.logo {
+    text-align: center;
+}
+.content_logo {
+    margin: 30px 0;
+}
+.content_logo a {
+    margin-right: 10px;
+}
 
 
 
