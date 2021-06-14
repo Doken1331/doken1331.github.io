@@ -338,4 +338,23 @@ margin-right: 4px;
     .gallery_8 p {
         margin-bottom: -20px;
     }
+    .end {
+        height: 850px;
+        background: #000;
+        display: grid;
+        grid-template-columns: 1fr;
+        margin-left: -210px;
+    }
+    .end_image {
+        margin-top: 20px;
+    }
+    .button_go {
+        margin-top: 20px;
+    }
+    .flex-copy {
+        margin-top: 0;
+    }
+    .div_none {
+        display: none;
+    }
 }
