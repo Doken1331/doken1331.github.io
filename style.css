@@ -291,6 +291,9 @@ margin-right: 4px;
     .new_menu_upp {
         height: 235px;
     }
+    .bg_slider1 {
+        background: url(img/bg_qwe.jpg) 65% 10% no-repeat;
+    }
     .bg_slider1 p {
         font-size: 55px;
         margin-left: -160px;
