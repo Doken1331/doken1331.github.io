@@ -41,6 +41,9 @@ nav {
     text-decoration: none;
     letter-spacing: 2px;
 }
+.icon_menu {
+    display: none;
+}
 .navigation a:hover {
     color:yellowgreen;
 }
@@ -48,7 +51,7 @@ nav {
     display: flex;
     height: 20px;
     padding-top: 50px;
-    padding-left: 650px;
+    padding-left: 550px;
 }
 .search_icon p {
     color: white;
@@ -192,3 +195,100 @@ margin-right: 4px;
     background: rgb(255, 255, 255);
 }
 
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 1700px) {
+    .navigation {
+        display: flex;
+        margin-top: 25px;
+    }
+    .search_icon {
+        padding-left: 300px;
+    }
+
+}
+
+
+
+@media screen and (max-width: 1500px) {
+    .navigation {
+        display: flex;
+        margin-top: 25px;
+    }
+    .search_icon {
+        padding-left: 0;
+    }
+
+}
+
+
+@media screen and (max-width: 1200px) {
+    .navigation {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        margin-top: 5px;
+    }
+    .search_icon {
+        padding-left: 0;
+    }
+
+}
+
+
+@media screen and (max-width: 1000px) {
+    .navigation {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        margin-top: 5px;
+    }
+}
+
+
+@media screen and (max-width: 500px) {
+    .navigation {
+        margin-top: 5px;
+        width: 180px;
+    }
+    .navigation a {
+        display: none;
+        grid-template-columns: 1fr 1fr 1fr;
+        margin-top: 5px;
+    }
+    .navigation .icon_menu {
+        margin-top: 20px;
+        display: block;
+        margin-left: 25px;
+    }
+    nav {
+        margin-left: -150px;
+    }
+    .search_icon {
+        margin-left: -80px;
+    }
+    .navigationresponsive {
+        display: grid;
+        margin-left: 70px;
+        width: 160px;
+    }
+    header .navigationresponsive {
+        height: 200px;
+    }
+    .navigationresponsive a {
+        text-decoration: none;
+        color: white;
+    }
+    .navigationresponsive a:hover {
+        color:yellowgreen;
+    }
+    .new_menu_upp {
+        height: 235px;
+    }
+}
