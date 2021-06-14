@@ -296,5 +296,21 @@ margin-right: 4px;
         margin-left: -160px;
         width: 100px;
         line-height: 70px;
+        text-shadow: 0 0 10px gainsboro;
+
+    }
+    .bg_slider2 {
+        background: url(img/bg2\ new.jpg) 50% 20% no-repeat;
+    }
+    .bg_slider2 h2 {
+        font-size: 50px;
+        text-shadow: 0 0 10px black;
+    }
+    .bg_slider2 p {
+        font-size: 20px;
+        color: white;
+        margin-left: -30px;
+        width: 350px;
+        text-shadow: 0 0 10px black;
     }
 }
