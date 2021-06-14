@@ -291,4 +291,10 @@ margin-right: 4px;
     .new_menu_upp {
         height: 235px;
     }
+    .bg_slider1 p {
+        font-size: 60px;
+        margin-left: -160px;
+        width: 100px;
+        line-height: 70px;
+    }
 }
