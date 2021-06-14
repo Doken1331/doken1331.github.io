@@ -292,7 +292,7 @@ margin-right: 4px;
         height: 235px;
     }
     .bg_slider1 p {
-        font-size: 60px;
+        font-size: 55px;
         margin-left: -160px;
         width: 100px;
         line-height: 70px;
@@ -305,12 +305,37 @@ margin-right: 4px;
     .bg_slider2 h2 {
         font-size: 50px;
         text-shadow: 0 0 10px black;
+        margin-left: -25px;
     }
     .bg_slider2 p {
         font-size: 20px;
         color: white;
-        margin-left: -30px;
+        margin-left: -60px;
         width: 350px;
         text-shadow: 0 0 10px black;
+    }
+    .gallery_1, .gallery_2, .gallery_3, .gallery_4, .gallery_7 {
+        display: none;
+    }
+    .gallery {
+        display: grid;
+        grid-template-columns: 1fr;
+        margin-left: -5px;
+        margin-bottom: -50px;
+        grid-row-gap: 70px;
+    }
+    .features {
+        height: 1000px;
+    }
+    .gallery_5 p {
+        margin-bottom: -20px;
+        width: 230px;
+        margin-left: 90px;
+    }
+    .gallery_6 p {
+        margin-bottom: -20px;
+    }
+    .gallery_8 p {
+        margin-bottom: -20px;
     }
 }
