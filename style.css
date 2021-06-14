@@ -265,13 +265,13 @@ margin-right: 4px;
     .navigation .icon_menu {
         margin-top: 20px;
         display: block;
-        margin-left: 25px;
+        margin-left: 20px;
     }
     nav {
         margin-left: -180px;
     }
     .search_icon {
-        margin-left: -80px;
+        margin-left: -95px;
     }
     .navigationresponsive {
         display: grid;
