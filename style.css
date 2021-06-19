@@ -230,6 +230,7 @@ margin-right: 4px;
     margin-top: 120px;
     background: url(img/prev.png) 0 0 / 100% no-repeat;
 }
+
 .slider .slick-arrow.slick-next {
     outline: none;
     right: 100;
