@@ -1,174 +1,362 @@
+<!DOCTYPE html>
 <html lang="ru">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Snowboards</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="libs/slick/slick.css">
+
+	<meta charset="utf-8">
+
+	<title>Nikita Ivanov</title>
+	<meta name="description" content="">
+
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+	<meta property="og:image" content="path/to/image.jpg">
+	<link rel="shortcut icon" href="img/favicon/favicon.ico" type="image/x-icon">
+	<link rel="apple-touch-icon" href="img/favicon/apple-touch-icon.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="img/favicon/apple-touch-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="img/favicon/apple-touch-icon-114x114.png">
+	
+	<!-- Chrome, Firefox OS and Opera -->
+	<meta name="theme-color" content="#000">
+	<!-- Windows Phone -->
+	<meta name="msapplication-navbutton-color" content="#000">
+	<!-- iOS Safari -->
+	<meta name="apple-mobile-web-app-status-bar-style" content="#000">
+
+	<link rel="stylesheet" href="css/main.min.css">
+
 </head>
+
 <body>
-    <header class="new_menu" id="top_header">
-        <nav>
-            <div class="logo">
-                <img src="img/logo.png" alt="logo">
-            </div>
-            <div class="navigation" id="top_menu">
-                <a href="">SHOP</a>
-                <a href="">TEAM</a>
-                <a href="">EVENTS</a>
-                <a href="">EXPERIENS</a>
-                <a href="">COMPANY</a>
-                <a href="">CONTACT</a>
-                <a href="#" id="menu" class="icon_menu">Menu</a>
-            </div>
-        </nav>
-        <div class="search_icon">
-            <a href="#"><img src="img/search-icon.png" alt="search-icon"></a>
-            <img src="img/shopping-bag-icon.png" alt="shopping-bag-icon">
-            <p>€99999</p>
+	<section class="start-bg" id="start-bg">
+        <div class="pattern-bg">
+            
         </div>
-    </header>
-    <main>
-        <div class="bg_slider1">
-            <p>RUN OVER <br> EVERYTHING</p>
-        </div>
-        <div class="snowboards">
-            <h2>SNOWBOARDS</h2>
-            <p>Aliquam erat volutpat. Curabitur ut consequat arcu eget laoreet est</p>
-            <img src="img/x.png" alt="x">
-            <div class="slider">
-                <div class="slider_item">
-                    <img src="img/board-1.png" alt="">
-                </div>
-                <div class="slider_item">
-                    <img src="img/board-2.png" alt="">
-                </div>
-                <div class="slider_item">
-                    <img src="img/board-3.png" alt="">
-                </div>
-                <div class="slider_item">
-                    <img src="img/board-4.png" alt="">
-                </div>
-                <div class="slider_item">
-                    <img src="img/board-5.png" alt="">
-                </div>
+        <div class="cover-bg">
+            <div class="hello_position wow animate__animated animate__fadeIn" data-wow-duration="1.5s" data-wow-delay="0.4s">
+                <p>
+                Hello, my name is Nikita Ivanov and I am
+                </p>
+                <h1>FRONTEND DEVELOPER</h1>
+                <p>
+                creating modern and responsive Web Application
+                </p>
             </div>
         </div>
-        <div class="bg_slider2">
-            <h2>The Mountains <br> Snowboarding ®</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum obcaecati enim vitae perspiciatis itaque alias rerum facilis unde, repudiandae laborum temporibus dolores, esse asperiores laudantium porro ullam earum eos numquam.
-            </p>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non eveniet adipisci, dicta vitae necessitatibus eum assumenda distinctio, ad reprehenderit quia odit dolor quaerat corporis suscipit temporibus perferendis? Natus, modi beatae!
-            </p>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt, vitae maxime. Enim in sed ut illo? Laborum praesentium, recusandae ipsa cum nisi veniam omnis mollitia sint voluptatem, impedit obcaecati aut?
-            </p>
-        </div>
-        <div class="features">
-            <h2>FEATURES</h2>
-            <img src="img/x.png" alt="x">
-            <div class="gallery">
-                <div class="gallery_1">
-                    <img src="img/gallery1.jpg" alt="gallery1">
-                    <p>Born Identity: Bringing Burton</p>
-                    <p>Hardgoods to Life</p>
-                </div>
-                <div class="gallery_2">
-                    <img src="img/gallery2.jpg" alt="gallery2">
-                    <p>Jeremy Jones: On That Street Grind</p>
-                    <p>Grind</p>
-                </div>
-                <div class="gallery_3">
-                    <img src="img/gallery3.jpg" alt="gallery3">
-                    <p>Burton’s Tokyo Rail Days Recap</p>
-                    <p>Recap</p>
-                </div>
-                <div class="gallery_4">
-                    <img src="img/gallery4.jpg" alt="gallery4">
-                    <p>Burton’s Tokyo Rail Days Preview</p>
-                    <p>Preview</p>
-                </div>
-                <div class="gallery_5">
-                    <img src="img/gallery5.jpg" width="220" height="160" alt="gallery5">
-                    <p>Parallel giant slalom is a speed race — or rather, several races</p>
-                    <p>Parallel giant slalom</p>
-                </div>
-                <div class="gallery_6">
-                    <img src="img/gallery6.jpg" width="220" height="160" alt="gallery6">
-                    <p>The sport was created in the late 1960s</p>
-                    <p>The birth of snowboarding</p>
-                </div>
-                <div class="gallery_7">
-                    <img src="img/gallery7.jpg" width="220" height="160" alt="gallery7">
-                    <p>This is the poster-child event of snowboarding</p>
-                    <p>Half pipe</p>
-                </div>
-                <div class="gallery_8">
-                    <img src="img/gallery8.jpg" width="220" height="160" alt="gallery8">
-                    <p>The best two times move on to the next round</p>
-                    <p>Snowboard cross</p>
+    </section>
+	<header class= "header">
+		<nav>
+			<div class="logo">
+			<a href="index.html">Nikita Ivanov</a>
+			</div>
+			<div>
+				<ul class="menu_body" id="icon">
+					<li><a href="#start-bg">HOME</a></li>
+					<li><a href="#what_i_do">TOOLS</a></li>
+					<li><a href="#works_container">WORKS</a></li>
+					<li><a href="#my_skills">SKILLS</a></li>
+					<li><a href="#contact_me">CONTACT</a></li>
+				</ul>
+			</div>
+            <div class="burger">
+                <div class="line line1"></div>
+                <div class="line line2"></div>
+                <div class="line line3"></div>
+            </div>
+		</nav>
+	</header>
+        <section class="what_i_do" id="what_i_do">
+            <div class="container">
+                <div class="wow animate__animated animate__fadeIn" data-wow-duration="1s" data-wow-delay="0.3s">
+                    <h2 class="what_i_do_h2 ">
+                        WHAT DO I USE <br>IN MY WORK
+                    </h2>
+                    <div class="block_line">
 
-                </div>
-            </div>
-        </div>
-        <footer>
-            <div class="end">
-                <div class="products">
-                    <h2>PRODUCTS</h2>
-                    <a href="#">Mens</a>
-                    <a href="#">Womens</a>
-                    <a href="#">Youth</a>
-                </div>
-                <div class="about">
-                    <h2>ABOUT</h2>
-                    <a href="#">Careers and Internships</a>
-                    <a href="#">Sponsorships</a>
-                    <a href="#">team</a>
-                    <a href="#">Catalog Request/Download</a>
-                </div>
-                <div class="customer_support">
-                    <h2>CUSTOMER SUPPORT</h2>
-                    <a href="#">Contact Us</a>
-                    <a href="#">Shipping and Order Tracking</a>
-                    <a href="#">Easy Returns</a>
-                    <a href="#">Warranty</a>
-                    <a href="#">Replacement Binding Parts</a>
-                </div>
-                <div class="new_sletter">
-                    <h2>NEWSLETTER</h2>
-                    <div class="button_go">
-                        <input type="text" placeholder="Enter your email">
-                        <button>GO</button>
                     </div>
-                    <div class="end_image">
-                        <a href="#"><img src="img/facebook.png" alt="facebook"></a>   
-                        <a href="#"><img src="img/twitter.png" alt="twitter"></a>                
-                        <a href="#"><img src="img/instagram.png" alt="instagram"></a>                
-                        <a href="#"><img src="img/hzp.png" alt="hzp"></a>                
-                        <a href="#"><img src="img/youtube.png" alt="youtube"></a>    
-                    </div>            
+                    <div>
+                        <p class="what_i_do_paragraph">
+                            No one lights a lamp in order to hide it behind the door: the purpose of light is to create more light, to open people’s eyes, to reveal the marvels around.
+                        </p>
+                    </div>
                 </div>
-                <div class="flex_copy">
-                    <img src="img/copy.png" width="12" height="12" alt="copy">
-                    <p>2021 Mountains Snowboards</p>
+                <div class="row wow animate__animated animate__fadeInUp" data-wow-duration="1s" data-wow-delay="0.3s">
+                    <div class="row_object">
+                        <div class="row_img object_1">
+                            <img src="img/htmlcssjs.png" alt="htmlcssjs" width="180" height="147">
+                        </div>
+                        <h2 class="row_h2">
+                            HTML5 + CSS3 + JavaScript
+                        </h2>
+                        <p>
+                            Good things come to those who wait, but only the things left by those who hustle
+                        </p>
+                    </div>
+                    <div class="row_object">
+                        <div class="row_img object_2">
+                            <img src="img/sass.png" alt="sass" width="180" height="100">
+                        </div>
+                        <h2 class="row_h2">
+                            SCSS/SASS
+                        </h2>
+                        <p>
+                            Good things come to those who wait, but only the things left by those who hustle
+                        </p>
+                    </div>
+                    <div class="row_object">
+                        <div class="row_img object_3">
+                            <img src="img/figma_ph.png" alt="figma_ph" width="190" height="100">
+                        </div>
+                        <h2 class="row_h2">
+                            Figma/Adobe Photoshop
+                        </h2>
+                        <p>
+                            Good things come to those who wait, but only the things left by those who hustle
+                        </p>
+                    </div>
+                    <div class="row_object">
+                        <div class="row_img object_4">
+                            <img src="img/bootstrap.png" alt="bootstrap" width="200" height="140">
+                        </div>
+                        <h2 class="row_h2">
+                            Bootstrap
+                        </h2>
+                        <p>
+                            Good things come to those who wait, but only the things left by those who hustle
+                        </p>
+                    </div>
+                    <div class="row_object">
+                        <div class="row_img object_5">
+                            <img src="img/gulp.png" alt="gulp" width="60" height="130">
+                        </div>
+                        <h2 class="row_h2">
+                            Gulp
+                        </h2>
+                        <p>
+                            Good things come to those who wait, but only the things left by those who hustle
+                        </p>
+                    </div>
                 </div>
-                <div class="div_none">
+            </div>
+        </section>
+        <section class="works_container" id="works_container">
+            <div class="my_works wow animate__animated animate__fadeIn" data-wow-duration="1s" data-wow-delay="0.3s">
+                <h2 class="my_works_h2">
+                    MY WORKS
+                </h2>
+                <div class="block_line">
 
                 </div>
-                <div class="div_none">
+                <div>
+                    <p class="what_i_do_paragraph">
+                        No one lights a lamp in order to hide it behind the door: the purpose of light is to create more light, to open people’s eyes, to reveal the marvels around.
+                    </p>
+                </div>
+            </div>
+            <div class="portfolio wow animate__animated animate__fadeInUp" data-wow-duration="1.5s" data-wow-delay="0.3s">
+                <figure class="figure_portfolio wow animate__animated animate__fadeInLeft" data-wow-duration="1.5s" data-wow-delay="0.3s">
+                    <a href="index.html">
+                        <figcaption class="figcaption_portfolio">
+                            <img src="img/snowboarding_2.jpg" alt="snowboarding" width="310" height="200">
+                        </figcaption>
+                    </a>
+                </figure>
+                <figure class="figure_portfolio wow animate__animated animate__fadeInUp" data-wow-duration="1.5s" data-wow-delay="0.3s">
+                    <a href="index.html">
+                        <figcaption class="figcaption_portfolio">
+                            <img src="img/my_company.jpg" alt="my_company" width="310" height="200">
+                        </figcaption>
+                    </a>
+                </figure>
+                <figure class="figure_portfolio wow animate__animated animate__fadeInRight" data-wow-duration="1.5s" data-wow-delay="0.3s">
+                    <a href="index.html">
+                        <figcaption class="figcaption_portfolio">
+                            <img src="img/snowboarding_2.jpg" alt="snowboarding" width="310" height="200">
+                        </figcaption>
+                    </a>
+                </figure>
+                <figure class="figure_portfolio wow animate__animated animate__fadeInUp" data-wow-duration="1.5s" data-wow-delay="0.3s">
+                    <a href="index.html">
+                        <figcaption class="figcaption_portfolio">
+                            <img src="img/my_company.jpg" alt="my_company" width="310" height="200">
+                        </figcaption>
+                    </a>
+                </figure>
+                <figure class="figure_portfolio wow animate__animated animate__fadeInUp" data-wow-duration="1.5s" data-wow-delay="0.3s">
+                    <a href="index.html">
+                        <figcaption class="figcaption_portfolio">
+                            <img src="img/snowboarding_2.jpg" alt="snowboarding" width="310" height="200">
+                        </figcaption>
+                    </a>
+                </figure>
+                <figure class="figure_portfolio wow animate__animated animate__fadeInUp" data-wow-duration="1.5s" data-wow-delay="0.3s">
+                    <a href="index.html">
+                        <figcaption class="figcaption_portfolio">
+                            <img src="img/my_company.jpg" alt="my_company" width="310" height="200">
+                        </figcaption>
+                    </a>
+                </figure>
+            </div>
+        </section>
+        <section class="my_skills" id="my_skills">
+            <div class="wow animate__animated animate__fadeIn" data-wow-duration="1.5s" data-wow-delay="0.3s">
+                <h2>
+                    MY SKILLS
+                </h2>
+                <div class="block_line">
 
                 </div>
-                <div class="region">
-                    <img src="img/usa_icon.png" width="12" height="10" alt="usa_icon">
-                    <p>Change Region</p>
+                <div>
+                    <p class="what_i_do_paragraph">
+                        No one lights a lamp in order to hide it behind the door: the purpose of light is to create more light, to open people’s eyes, to reveal the marvels around.
+                    </p>
+                </div>
+            </div>
+            <div class="main_circle wow animate__animated animate__fadeInUp" data-wow-duration="1.5s" data-wow-delay="0.3s">
+                <div class="container_circle">
+                    <div class="container_interest">
+                        <p>
+                            60%
+                        </p>
+                    </div>
+                    <div class="summ_circle">
+                        <div class="figma_circle wow">
+                        
+                        </div>
+                        <div class="figma_circle_two wow">
+                    
+                        </div>
+                    </div> 
+                    <p class="container_name">
+                        HTML5 + CSS3 + JavaScript
+                    </p>
+                </div>
+                <div class="container_circle">
+                    <div class="container_interest">
+                        <p>
+                            80%
+                        </p>
+                    </div>
+                    <div class="summ_circle">
+                        <div class="sass_circle wow">
+                        
+                        </div>
+                        <div class="sass_circle_two wow">
+                    
+                        </div>
+                    </div>
+                    <p class="container_name">
+                        SCSS/SASS
+                    </p> 
+                </div>
+                <div class="container_circle">
+                    <div class="container_interest">
+                        <p>
+                            60%
+                        </p>
+                    </div>
+                    <div class="summ_circle">
+                        <div class="figma_circle wow">
+                        
+                        </div>
+                        <div class="figma_circle_two wow">
+                    
+                        </div>
+                    </div>
+                    <p class="container_name">
+                        Figma/Adobe Photoshop
+                    </p> 
+                </div>
+                <div class="container_circle">
+                    <div class="container_interest">
+                        <p>
+                            60%
+                        </p>
+                    </div>
+                    <div class="summ_circle">
+                        <div class="figma_circle wow">
+                        
+                        </div>
+                        <div class="figma_circle_two wow">
+                    
+                        </div>
+                    </div>
+                    <p class="container_name">
+                        Bootstrap
+                    </p>
+                    <div>
+            
+                    </div>
+                </div>
+                <div class="container_circle">
+                    <div class="container_interest">
+                        <p>
+                            70%
+                        </p>
+                    </div>
+                    <div class="summ_circle">
+                        <div class="circle wow">
+                        
+                        </div>
+                        <div class="circle_two wow">
+                    
+                        </div>
+                    </div> 
+                    <p class="container_name">
+                        Gulp
+                    </p>
+                </div>
+            </div>
+            
+        </section>
+        <section class="contact_me" id="contact_me">
+            <div class="wow animate__animated animate__fadeIn" data-wow-duration="1.5s" data-wow-delay="0.3s">
+                <h2>
+                    CONTACT ME
+                </h2>
+                <div class="block_line">
+
+                </div>
+                <div>
+                    <p class="what_i_do_paragraph">
+                        No one lights a lamp in order to hide it behind the door: the purpose of light is to create more light, to open people’s eyes, to reveal the marvels around.
+                    </p>
+                </div>
+            </div>
+            <form action="#" id="form" class="form_body">
+                <div class="form_item wow animate__animated animate__fadeInUp" data-wow-duration="1.5s" data-wow-delay="0.3s">
+                    <label for="forName" class="formLabel"></label>
+                    <input id="forName" type="text" name="name" class="form_input" placeholder="Name">
+                </div>
+                <div class="form_item wow animate__animated animate__fadeInUp" data-wow-duration="1.5s" data-wow-delay="0.3s">
+                    <label for="forEmail" class="formLabel"></label>
+                    <input id="forEmail" type="text" name="email" class="form_input" placeholder="Email">
+                </div>
+                <div class="form_item wow animate__animated animate__fadeInUp" data-wow-duration="1.5s" data-wow-delay="0.3s">
+                    <label for="forMessage" class="formLabel"></label>
+                    <textarea name="message" id="forMessage" cols="30" rows="10" class="form_input" placeholder="Message"></textarea>
+                </div>
+                <button type="submit" class="form_button wow animate__animated animate__fadeInUp" data-wow-duration="1.5s" data-wow-delay="0.6s">
+                    SEND MESSAGE
+                </button>
+            </form>
+        </section>
+        <footer>
+            <div class="row_src">
+                <div>
+                    <ul>
+                        <li><a href="https://vk.com/doken1331"><i class="fab fa-vk"></i></a></li>
+                        <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                        <li><a href="#"><i class="fas fa-envelope"></i></a></li>
+                    </ul>
+                    <p>Made with <i class="fas fa-heart"></i></p>
+                    <p>© 2021 Nikita Ivanov</p>
                 </div>
             </div>
         </footer>
-    </main>
-
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-    <script src="libs/slick/slick.min.js"></script>
-    <script src="js/script2.js"></script>
-    <script src="js/script.js"></script>
+    <script src="js/wow.min.js"></script>
+	<script src="js/scripts.min.js"></script>
+    <script src="https://kit.fontawesome.com/e8f69c5df2.js" crossorigin="anonymous"></script>
 </body>
 </html>
